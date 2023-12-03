@@ -9,9 +9,9 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #e6924e;
+    --first-color: #5b4b3d;
     --white-color: #ffffff;
-    --dark-color: #e6924e;
+    --dark-color: #5b4b3d;
     --text-color: #000000;
 }
 
@@ -178,7 +178,7 @@ img{
 /*===== HOME =====*/
 .home{
     position: relative;
-    background-color: var(--first-color);
+    background-color: var(--white-color);
     overflow: hidden;
 }
 .home__container{
@@ -188,7 +188,7 @@ img{
 .home__title{
     align-self: flex-end;
     font-size: var(--h2-font-size);
-    color: var(--white-color);
+    color: var(--first-color);
     line-height: .8;
 }
 .home__title span{
